@@ -41,7 +41,7 @@ Upload documents, select OCR language, analyze, summarize and ask questions.
 <tr>
 
 <td align="center">
-<img src="assets/screenshots/language.png" width="180px" alt="Language Selection">
+<img src="assets/screenshots/Language.png" width="180px" alt="Language Selection">
 <br>
 <b>🌐 OCR Languages</b>
 </td>
@@ -53,7 +53,7 @@ Upload documents, select OCR language, analyze, summarize and ask questions.
 </td>
 
 <td align="center">
-<img src="assets/screenshots/summary.png" width="180px" alt="Summary">
+<img src="assets/screenshots/Summary.png" width="180px" alt="Summary">
 <br>
 <b>📄 AI Summary</b>
 </td>
@@ -205,7 +205,6 @@ to keep answers grounded in the uploaded document.
 
 ## 🔍 Why Synora?
 
-<details>
 <summary><b>Click to explore</b></summary>
 
 <br>
@@ -220,13 +219,11 @@ to keep answers grounded in the uploaded document.
 | ❓ Difficult to verify answers | 📌 Page-level citations |
 | 📖 Long documents are difficult | ✂️ Map-reduce processing |
 
-</details>
 
 ---
 
 ## 🧩 How Synora Works
 
-<details>
 <summary><b>🔬 Explore the complete pipeline</b></summary>
 
 <br>
