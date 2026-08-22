@@ -6,14 +6,21 @@
 
 **Understand documents. Extract knowledge. Ask anything.**
 
-<br>
+<!-- <br>
 
 <a href="https://synora-qqtugyc2cut5bi7vmeqnap.streamlit.app/">
 <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-Try_Synora-6C63FF?style=for-the-badge">
 </a>
 
+<br><br> -->
 <br><br>
 
+<img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
+<img src="https://img.shields.io/badge/RAG-7C3AED?style=flat-square">
+<img src="https://img.shields.io/badge/FAISS-Vector_Search-00A67E?style=flat-square">
+<img src="https://img.shields.io/badge/Groq-LLM-F55036?style=flat-square">
+<br><br>
 
 ## 🖥️ Synora in Action
 
@@ -47,7 +54,7 @@ Upload documents, select OCR language, analyze, summarize and ask questions.
 </td>
 
 <td align="center">
-<img src="assets/screenshots/upload-options.png" width="180px" alt="Summary Options">
+<img src="assets/screenshots/upload_options.png" width="180px" alt="Summary Options">
 <br>
 <b>📝 Summary Options</b>
 </td>
@@ -82,14 +89,6 @@ Upload documents, select OCR language, analyze, summarize and ask questions.
 </div>
 
 </details>
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
-<img src="https://img.shields.io/badge/RAG-7C3AED?style=flat-square">
-<img src="https://img.shields.io/badge/FAISS-Vector_Search-00A67E?style=flat-square">
-<img src="https://img.shields.io/badge/Groq-LLM-F55036?style=flat-square">
 
 <br><br>
 
