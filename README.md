@@ -9,12 +9,15 @@
 <br>
 
 <a href="https://synora-qqtugyc2cut5bi7vmeqnap.streamlit.app/">
-  <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-Try_Synora-6C63FF?style=for-the-badge" alt="Live Demo">
+<img src="https://img.shields.io/badge/🚀_LIVE_DEMO-Try_Synora-6C63FF?style=for-the-badge">
 </a>
 
 <br><br>
 
-<img src="assets/screenshots/screenshot(109).png">
+<img src="assets/screenshots/Synora.png" width="90%" alt="Synora">
+
+<br><br>
+
 <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white">
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
 <img src="https://img.shields.io/badge/RAG-7C3AED?style=flat-square">
@@ -29,28 +32,30 @@
 
 ---
 
-# 🌌 About Synora
+## 🌌 What is Synora?
 
-**Synora** is an AI-powered document understanding assistant designed to turn lengthy and difficult-to-read documents into actionable knowledge.
+**Synora** is an AI-powered document understanding assistant that transforms
+long PDFs, scanned documents, and images into concise, structured and
+searchable knowledge.
 
-Upload a **PDF or image**, and Synora can:
+Upload a document and Synora can:
 
-- 📄 Extract document content
+- 📄 Extract text from PDFs and images
 - 🔎 Perform OCR on scanned documents
-- 🌐 Process multiple Indian languages
-- 🧠 Understand document semantics
+- 🌐 Support multilingual OCR
 - 📝 Generate intelligent summaries
 - 🔑 Extract key points
 - 🎯 Identify main ideas
 - 💡 Suggest improvements
-- 💬 Answer questions using RAG
+- 💬 Answer document-based questions
 - 📌 Provide page-level sources
 
-Unlike a conventional summarizer, Synora uses a **Retrieval-Augmented Generation (RAG)** pipeline to ground answers in the uploaded document.
+At its core, Synora uses a **Retrieval-Augmented Generation (RAG)** pipeline
+to keep answers grounded in the uploaded document.
 
 ---
 
-# 🚀 Experience Synora
+## 🚀 Try Synora
 
 <div align="center">
 
@@ -58,94 +63,26 @@ Unlike a conventional summarizer, Synora uses a **Retrieval-Augmented Generation
 
 <br>
 
-`📤 Upload` &nbsp;→&nbsp; `🌐 Select Language` &nbsp;→&nbsp; `🔍 Analyze`  
-&nbsp;→&nbsp; `📝 Understand` &nbsp;→&nbsp; `💬 Ask`
+`📤 Upload` → `🌐 Select Language` → `🔍 Analyze`
+→ `📝 Understand` → `💬 Ask`
 
 </div>
 
 ---
 
-# 🖥️ Application Preview
-
-> Add your screenshots inside `assets/screenshots/`.
-
-<div align="center">
-
-<img src="assets/screenshots/dashboard.png" width="90%" alt="Synora Dashboard">
-
-<br><br>
-
-<details>
-<summary><b>📸 Explore More Screenshots</b></summary>
-
-<br>
-
-<table>
-<tr>
-<td align="center">
-<img src="assets/screenshots/upload.png" width="95%" alt="Document Upload">
-<br><b>📤 Document Upload</b>
-</td>
-
-<td align="center">
-<img src="assets/screenshots/summary.png" width="95%" alt="AI Summary">
-<br><b>📝 AI Summary</b>
-</td>
-</tr>
-
-<tr>
-<td align="center">
-<img src="assets/screenshots/key-points.png" width="95%" alt="Key Points">
-<br><b>🔑 Key Points</b>
-</td>
-
-<td align="center">
-<img src="assets/screenshots/qa.png" width="95%" alt="RAG Q&A">
-<br><b>💬 Document Q&A</b>
-</td>
-</tr>
-</table>
-
-</details>
-
-</div>
-
----
-
-# 💡 Why Synora?
-
-<details>
-<summary><b>🔍 Click to compare Synora with traditional document reading</b></summary>
-
-<br>
-
-| Traditional Approach | ✦ Synora |
-|---|---|
-| 📚 Read everything manually | ⚡ Content-proportional summaries |
-| 🔎 Keyword search | 🧠 Semantic retrieval |
-| 🧩 Separate OCR tools | 🔎 Built-in OCR fallback |
-| 🌍 Limited language support | 🌐 Multilingual OCR |
-| 🤖 Generic chatbot responses | 🎯 Document-grounded answers |
-| ❓ Difficult to verify answers | 📌 Page-level source citations |
-| 📖 Long documents are overwhelming | ✂️ Map-reduce summarization |
-
-</details>
-
----
-
-# ✨ Core Capabilities
+## ✨ Core Features
 
 <table>
 <tr>
 
 <td width="50%">
 
-### 📄 Intelligent Document Processing
+### 📄 Document Processing
 
-- PDF support
-- PNG / JPG / JPEG support
+- PDF, PNG, JPG & JPEG
 - PyMuPDF text extraction
 - Tesseract OCR fallback
+- Scanned document support
 - Page-aware extraction
 - Text cleaning & normalization
 
@@ -153,12 +90,12 @@ Unlike a conventional summarizer, Synora uses a **Retrieval-Augmented Generation
 
 <td width="50%">
 
-### 🧠 AI Document Understanding
+### 🧠 AI Understanding
 
 - Short / Medium / Long summaries
-- Key point extraction
-- Main idea detection
-- Improvement suggestions
+- Key Points
+- Main Ideas
+- Improvement Suggestions
 - Large-document map-reduce
 - Downloadable summaries
 
@@ -170,14 +107,14 @@ Unlike a conventional summarizer, Synora uses a **Retrieval-Augmented Generation
 
 <td width="50%">
 
-### 💬 Grounded RAG Q&A
+### 💬 RAG Q&A
 
 - Semantic document search
 - FAISS vector retrieval
 - Top-K relevant chunks
 - Groq-powered generation
-- Context-grounded answers
-- Page-number source references
+- Grounded responses
+- Page-number sources
 
 </td>
 
@@ -185,12 +122,12 @@ Unlike a conventional summarizer, Synora uses a **Retrieval-Augmented Generation
 
 ### 🌐 Multilingual OCR
 
-- English
-- Hindi
-- Telugu
-- Tamil
-- Bengali
-- English + regional language combinations
+- 🇬🇧 English
+- 🇮🇳 Hindi
+- 🇮🇳 Telugu
+- 🇮🇳 Tamil
+- 🇮🇳 Bengali
+- English + regional languages
 
 </td>
 
@@ -199,85 +136,74 @@ Unlike a conventional summarizer, Synora uses a **Retrieval-Augmented Generation
 
 ---
 
-# 🌐 Multilingual OCR
+## 🔍 Why Synora?
 
-Synora allows the user to select the appropriate OCR language **per document**.
+<details>
+<summary><b>Click to explore</b></summary>
 
-| Language | Tesseract Code |
+<br>
+
+| Traditional Document Reading | ✦ Synora |
 |---|---|
-| 🇬🇧 English | `eng` |
-| 🇮🇳 Hindi | `hin` |
-| 🇮🇳 Telugu | `tel` |
-| 🇮🇳 Tamil | `tam` |
-| 🇮🇳 Bengali | `ben` |
-| 🇮🇳 Hindi + English | `hin+eng` |
-| 🇮🇳 Telugu + English | `tel+eng` |
-| 🇮🇳 Tamil + English | `tam+eng` |
-| 🇮🇳 Bengali + English | `ben+eng` |
+| 📚 Read everything manually | ⚡ Content-proportional summaries |
+| 🔎 Keyword search | 🧠 Semantic retrieval |
+| 🧩 Separate OCR tools | 🔎 Built-in OCR |
+| 🌍 Limited language support | 🌐 Multilingual OCR |
+| 🤖 Generic chatbot answers | 🎯 Document-grounded answers |
+| ❓ Difficult to verify answers | 📌 Page-level citations |
+| 📖 Long documents are difficult | ✂️ Map-reduce processing |
 
-> Selecting the appropriate language prevents cross-script confusion and improves OCR quality.
+</details>
 
 ---
 
-# 🧩 Interactive Project Tour
+## 🧩 How Synora Works
 
 <details>
-<summary><b>🔬 Explore the complete Synora pipeline</b></summary>
+<summary><b>🔬 Explore the complete pipeline</b></summary>
 
 <br>
 
 ```text
-                         ┌──────────────────────┐
-                         │   📄 PDF / 🖼 IMAGE  │
-                         └──────────┬───────────┘
-                                    │
-                                    ▼
-                    ┌─────────────────────────────┐
-                    │       🔎 EXTRACTION         │
-                    │                             │
-                    │  PyMuPDF     Tesseract OCR  │
-                    └──────────────┬──────────────┘
-                                   │
-                                   ▼
-                    ┌─────────────────────────────┐
-                    │       🧹 PREPROCESSING       │
-                    │                             │
-                    │  Clean → Normalize → Chunk  │
-                    └──────────────┬──────────────┘
-                                   │
-                                   ▼
-                    ┌─────────────────────────────┐
-                    │       🧠 EMBEDDINGS          │
-                    │                             │
-                    │ Sentence-Transformers      │
-                    └──────────────┬──────────────┘
-                                   │
-                                   ▼
-                    ┌─────────────────────────────┐
-                    │       ⚡ FAISS INDEX         │
-                    │                             │
-                    │     Vector Store            │
-                    └──────────────┬──────────────┘
-                                   │
-                    ┌──────────────┴──────────────┐
-                    │                             │
-                    ▼                             ▼
-          ┌─────────────────┐          ┌──────────────────┐
-          │ 📝 SUMMARIZATION │          │ 💬 RAG Q&A       │
-          │                 │          │                  │
-          │ 🔑 Key Points   │          │ Semantic Search  │
-          │ 🎯 Main Ideas   │          │ Top-K Chunks     │
-          │ 💡 Suggestions  │          │ Context          │
-          └─────────────────┘          └────────┬─────────┘
-                                                 │
-                                                 ▼
-                                      ┌────────────────────┐
-                                      │     🤖 GROQ LLM    │
-                                      └─────────┬──────────┘
-                                                │
-                                                ▼
-                                      ┌────────────────────┐
-                                      │ 📌 GROUNDED ANSWER │
-                                      │                    │
-                                      │   + Page Sources   │
-                                      └────────────────────┘
+                 📄 PDF / IMAGE
+                       │
+                       ▼
+              ┌─────────────────┐
+              │  🔎 Extract/OCR │
+              │                 │
+              │ PyMuPDF /       │
+              │ Tesseract       │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │ 🧹 Clean &      │
+              │    Chunk        │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │ 🧠 Embeddings   │
+              │ Sentence-       │
+              │ Transformers    │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │ ⚡ FAISS        │
+              │ Vector Store    │
+              └────────┬────────┘
+                       │
+             ┌─────────┴─────────┐
+             ▼                   ▼
+       📝 AI ANALYSIS          💬 RAG Q&A
+             │                   │
+       ┌─────┼─────┐             ▼
+       ▼     ▼     ▼        🔎 Retrieve
+    Summary Points Ideas          │
+       │     │     │              ▼
+       └─────┴─────┘         🤖 Groq LLM
+                                  │
+                                  ▼
+                         📌 Grounded Answer
+                             + Sources
