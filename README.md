@@ -14,7 +14,7 @@
 
 <br><br>
 
-<img src="assets/screenshots/image.png">
+<img src="assets/screenshots/screenshot(109).png">
 <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white">
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
 <img src="https://img.shields.io/badge/RAG-7C3AED?style=flat-square">
