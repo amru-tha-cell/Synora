@@ -18,8 +18,6 @@
 ## 🖥️ Synora in Action
 
 <div align="center">
-<img src="assets/screenshots/Synora.png" width="90%" alt="Synora">
-  <br><br>
 <img src="assets/screenshots/Synora.png" width="90%" alt="Synora Application">
 
 <br><br>
@@ -232,5 +230,5 @@ to keep answers grounded in the uploaded document.
 <summary><b>🔬 Explore the complete pipeline</b></summary>
 
 <br>
-<img src="assets/screenshots/synora_architechture.png">
+<img src="assets/screenshots/Synora_architechture.png">
 
