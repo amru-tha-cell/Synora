@@ -14,7 +14,76 @@
 
 <br><br>
 
+
+## 🖥️ Synora in Action
+
+<div align="center">
 <img src="assets/screenshots/Synora.png" width="90%" alt="Synora">
+  <br><br>
+<img src="assets/screenshots/Synora.png" width="90%" alt="Synora Application">
+
+<br><br>
+
+<sub>
+Upload documents, select OCR language, analyze, summarize and ask questions.
+</sub>
+
+</div>
+
+<br>
+
+<details>
+<summary><b>📸 Explore the Complete Interface</b></summary>
+
+<br>
+
+<div align="center">
+
+<table>
+<tr>
+
+<td align="center">
+<img src="assets/screenshots/language.png" width="180px" alt="Language Selection">
+<br>
+<b>🌐 OCR Languages</b>
+</td>
+
+<td align="center">
+<img src="assets/screenshots/upload-options.png" width="180px" alt="Summary Options">
+<br>
+<b>📝 Summary Options</b>
+</td>
+
+<td align="center">
+<img src="assets/screenshots/summary.png" width="180px" alt="Summary">
+<br>
+<b>📄 AI Summary</b>
+</td>
+
+<td align="center">
+<img src="assets/screenshots/key-points.png" width="180px" alt="Key Points">
+<br>
+<b>🔑 Key Points</b>
+</td>
+
+<td align="center">
+<img src="assets/screenshots/main-ideas.png" width="180px" alt="Main Ideas">
+<br>
+<b>🎯 Main Ideas</b>
+</td>
+
+<td align="center">
+<img src="assets/screenshots/qa.png" width="180px" alt="RAG Q&A">
+<br>
+<b>💬 RAG Q&A</b>
+</td>
+
+</tr>
+</table>
+
+</div>
+
+</details>
 
 <br><br>
 
@@ -163,47 +232,5 @@ to keep answers grounded in the uploaded document.
 <summary><b>🔬 Explore the complete pipeline</b></summary>
 
 <br>
+<img src="assets/screenshots/synora_architechture.png">
 
-```text
-                 📄 PDF / IMAGE
-                       │
-                       ▼
-              ┌─────────────────┐
-              │  🔎 Extract/OCR │
-              │                 │
-              │ PyMuPDF /       │
-              │ Tesseract       │
-              └────────┬────────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │ 🧹 Clean &      │
-              │    Chunk        │
-              └────────┬────────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │ 🧠 Embeddings   │
-              │ Sentence-       │
-              │ Transformers    │
-              └────────┬────────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │ ⚡ FAISS        │
-              │ Vector Store    │
-              └────────┬────────┘
-                       │
-             ┌─────────┴─────────┐
-             ▼                   ▼
-       📝 AI ANALYSIS          💬 RAG Q&A
-             │                   │
-       ┌─────┼─────┐             ▼
-       ▼     ▼     ▼        🔎 Retrieve
-    Summary Points Ideas          │
-       │     │     │              ▼
-       └─────┴─────┘         🤖 Groq LLM
-                                  │
-                                  ▼
-                         📌 Grounded Answer
-                             + Sources
